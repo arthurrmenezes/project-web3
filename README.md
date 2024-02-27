@@ -1,8 +1,10 @@
-# project-web3
+# Project - Web3
 
 ## Tarefas
 
 - [ ] Header
+    - [x] HTML
+    - [ ] CSS
 - [ ] Apresentação
 - [ ] Projetos
 - [ ] Conhecimentos

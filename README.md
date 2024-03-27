@@ -2,7 +2,7 @@
 
 ## Tarefas
 
-- [ ] Header
+- [x] Header
     - [x] HTML
     - [x] CSS
     - [x] JS

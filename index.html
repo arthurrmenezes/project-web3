@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web3</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -64,13 +65,17 @@
         <h2>Compre cripto</h2>
         <form action="">
             <div class="campolinha">
-                <label for="nome">Nome do ativo</label>
-                <input type="text" id="nome">
+                <label for="nome">Selecione o ativo</label>
+                <select id="nome">
+                    <option value="1">Bitcoin</option>
+                    <option value="1">Ethereum</option>
+                    <option value="1">Matic</option>
+                </select>
             </div>
 
             <div class="campo">
                 <label for="paginas">Quantidade</label>
-                <input type="number" id="paginas" min="0.000015" value="0.000015">
+                <input type="number" placeholder="1.0" id="paginas" step="0.000001" min="0.000015" value="0.000015">
             </div>
 
             <div class="campo">
@@ -95,6 +100,8 @@
             <label for="js">Conectar com Wallet</label>
             <input type="checkbox" id="js">
             <input type="submit" value="Enviar">
+
+            <output id="valor">R$ 5,25</output>
         </form>
     </section>
 
